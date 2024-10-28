@@ -52,3 +52,16 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Running with Deno
+
+To run the project with Deno, follow these steps:
+
+1. Install Deno by following the instructions at [deno.land](https://deno.land/#installation).
+2. Run the development server using the following command:
+
+```sh
+deno task dev
+```
+
+This will start the development server at `localhost:4321`.
