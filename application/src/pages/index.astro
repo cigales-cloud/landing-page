@@ -60,6 +60,21 @@ import Card from '../components/Card.astro';
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
+		<section class="hero">
+			<h1>Empowering Nature with Technology for a Sustainable Future</h1>
+			<p>Creating a smart, connected world that supports the sustainable preservation of cicadas and their natural habitats through innovative cloud technologies, data-driven insights, and eco-friendly practices.</p>
+			<button class="cta-button">Learn More</button>
+		</section>
+		<section class="mission">
+			<h2>Our Mission</h2>
+			<p>To create a smart, connected world that supports the sustainable preservation of cicadas and their natural habitats through innovative cloud technologies, data-driven insights, and eco-friendly practices.</p>
+			<img src="/images/mission.jpg" alt="Cicadas and their natural habitat">
+			<ul>
+				<li>Environmental sustainability</li>
+				<li>Conservation</li>
+				<li>Scientific research</li>
+			</ul>
+		</section>
 	</main>
 </Layout>
 
@@ -119,5 +134,54 @@ import Card from '../components/Card.astro';
 		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
 		gap: 2rem;
 		padding: 0;
+	}
+	.hero {
+		text-align: center;
+		background-image: url('/images/hero-background.jpg');
+		background-size: cover;
+		padding: 4rem 1rem;
+		color: white;
+	}
+	.hero h1 {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	}
+	.hero p {
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+	}
+	.cta-button {
+		background-color: var(--accent);
+		color: white;
+		padding: 1rem 2rem;
+		border: none;
+		border-radius: 4px;
+		font-size: 1rem;
+		cursor: pointer;
+	}
+	.mission {
+		margin-top: 4rem;
+		text-align: center;
+	}
+	.mission h2 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+	}
+	.mission p {
+		font-size: 1.25rem;
+		margin-bottom: 2rem;
+	}
+	.mission img {
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 2rem;
+	}
+	.mission ul {
+		list-style: none;
+		padding: 0;
+	}
+	.mission ul li {
+		font-size: 1.25rem;
+		margin-bottom: 0.5rem;
 	}
 </style>
