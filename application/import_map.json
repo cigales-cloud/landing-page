@@ -1,5 +1,0 @@
-{
-  "imports": {
-    "astro": "https://deno.land/x/astro@v4.16.6/mod.ts"
-  }
-}
